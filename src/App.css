@@ -1,38 +1,292 @@
-.App {
+body{
+  background: #c0392b;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8e44ad, #c0392b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+ } 
+ 
+.makeStyles-navPrincipal-3 .MuiTypography-body1{
+  font-weight: 900;
+}
+ .makeStyles-logoTexto-5 {
+  font-family: "Anton", "Helvetica", "Arial", sans-serif;
+  
+}
+.MuiTypography-h1, .MuiTypography-h2, .MuiTypography-h3, .MuiTypography-h4, .MuiTypography-h5{
+  font-size: 2rem !important; 
+  font-family: 'Concert One', cursive !important; 
+}
+
+.MuiTypography-h3{
+  font-size: 1.6rem !important;  
+}
+.MuiTypography-body2 {   
+  font-weight: 300;   
+}
+ 
+.titulo,.titulo-seccion,.sub-titulo, .social-links, .serv-titulo, .tituloheader{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titulo-seccion, .titulo{
+  font-weight: 900 !important;
+  padding: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.principal{    
+  margin-top: 5%;   
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#servicios{
+  margin-left: 5px;
+}
+.info-servicios{
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+.social-links {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+.social-links .social-icon, .item-habilidad .social-icon{
+  color: #cbd62d;
+  font-size: 4rem;
+  padding: 8px;
+}
+.tarjeta-serv .icon-serv{
+  color: #867e96;
+  font-size: 4rem;
+  display: flex;
+  margin: auto;
+  padding: 18px;   
+}
+.headerpaginas{                 
+  background-color: #cccccc; 
+  height: 350px;  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: azure;
+  border-radius:0px;
+  margin-top:4%;
+}
+.info-haeader .tituloheader{
+    font-weight:900;
+    font-size: 4rem !important;
+     
+}
+#portafolio{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background: transparent;
+  border-radius: 8px;
+  padding: 0px;
+}
+#portafolio .tarjeta-serv{
+  color:#f0ffff !important;
+}
+#portafolio .tarjeta-serv .boton{
+  display: flex;
+  margin: auto;
+}
+#acercade{
+  background: transparent;
+    border-radius: 8px;
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #f0ffff;    
+}
+.info.habilidad{
+  padding: 0 8px;
+}
+.info.acercade{
+  padding: 45px;
+}
+.habilidades{
+  background: black;
+  width: 100% !important;  
+  margin-top: -78px !important;
+  margin-bottom: -9px !important; 
+}
+.interno.habilidad{
+  padding: 25px;
+}
+.item-habilidad{
+  background:#222 !important;
+  color: #f0ffff !important;
+  padding: 15px;
+}
+.prog{
+  height: 60px !important;
+  width: 60px !important;
+  color:#fc4a1a !important;
+}
+.cta{
+  padding: 65px 300px; 
+  margin-bottom: 0px; 
+  background: #222;
+}
+.cta .boton{
+  margin:auto;
+  display: flex;
+}
+.boton {
+  margin:auto;
+  display: flex;
+  background: #fc4a1a;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: azure !important;
 }
 
-.App-link {
-  color: #61dafb;
+.foto1{   
+  margin-left: -100px;
+  margin-top: -70px;
+  width: 700px;
+  margin-bottom: 9px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.foto2{
+  display: flex;
+  margin: auto;
 }
+.imagen-banner{
+  background-image: url(./media/lc-programando.jpg);
+  background-size: cover;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;   
+}
+.info-banner{
+  margin-top:9px;
+}
+.texto-banner{
+  padding-left: 216px;
+  padding-right: 20px;
+}
+#formulario{
+  background: radial-gradient(black, transparent);
+}
+
+#formulario {
+  margin-top: 5px;
+}
+.item-contenedor{
+  display:flex !important;
+}
+ .contacto{
+   padding: 0 25px;
+   margin-top: 100px !important;
+   margin-bottom: 100px !important;
+ }
+ .contacto a{
+   text-decoration: none;
+   color: #f0ffff;
+ }
+#footer{
+  background: #ffe259;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #ffa751, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #ffa751, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 2px;
+  display: flex;
+  margin: auto;
+  width: 100% !important;
+}
+#footer a{
+  color: #ff8008;
+  text-decoration: none;
+}
+.tarjeta-serv {  
+  color: #FF8008  !important; 
+  background-color: #33225d  !important;
+     
+}
+#footer .tarjeta-serv .icon-serv {  
+  color: #FF8008;  /* fallback for old browsers */
+  color: -webkit-linear-gradient(to bottom, #FFC837, #FF8008);  /* Chrome 10-25, Safari 5.1-6 */
+  color: linear-gradient(to bottom, #FFC837, #FF8008); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 3rem;     
+  padding: 7px;
+}
+
+/*Movil*/
+@media (max-width: 768px) {
+  .principal {
+    margin-top: 13% !important;
+}
+  #servicios{
+    margin: 0 5px;
+  }
+  .foto1{
+    margin-left: 0px;
+    margin-top: -70px;    
+    margin-bottom: -1px;
+    width: 100%;
+  }
+  .cta{
+    margin-top: 1px;
+    padding: 5px 20px;
+    margin-bottom: 1px;
+  }
+  .social-links {    
+    width: 100%;    
+}
+  .social-links .social-icon, .item-habilidad .social-icon {   
+    font-size: 2rem;     
+  }
+  .info-servicios{
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .MuiGrid-spacing-xs-3, .MuiGrid-spacing-xs-2 {
+    width: 100% !important;
+    margin: 0px !important;
+}
+.headerpaginas {   
+  height: 250px;
+  margin-top: 60px;  
+}
+.tituloheader {
+  font-size: 2rem;  
+  text-align: center;
+  }
+  .foto2{
+    margin-top: -55px;
+  }
+  .habilidades .social-icon {
+    display:flex;
+    margin: auto;
+  }
+   .habilidades .titulo-acercade{
+     text-align: center ;
+  }
+  .MuiBox-root-6, .MuiBox-root-8, .MuiBox-root-10, .MuiBox-root-12 {     
+    display: flex !important;
+  }
+  .prog{
+    display: flex !important;
+    margin: auto !important;
+  }
+  .habilidades .sub-titulo{
+    padding: 5%;
+  }
+  .texto-banner {    
+    padding: 2px;
+}
+  .titulo-acercade{
+    text-align: center !important;
+  }
+  .texto-banner .sub-titulo{
+    padding: 0 5% !important;
+
+  }
+  .habilidades .boton-accion, .texto-banner .boton-accion{
+    padding: 5px;
+  }
+  .habilidades .boton, .texto-banner .boton{
+    display: flex;
+  }
+
+}
+
+
